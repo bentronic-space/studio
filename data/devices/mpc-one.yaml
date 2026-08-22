@@ -1,0 +1,179 @@
+id: mpc_one
+name: Akai MPC One
+type: standalone_sequencer
+
+status: active
+location: studio
+
+ports:
+  - id: midi_in
+    name: MIDI IN
+    type: midi
+    connector: din5
+    transport: midi_din
+    direction: input
+
+  - id: midi_out
+    name: MIDI OUT
+    type: midi
+    connector: din5
+    transport: midi_din
+    direction: output
+
+  - id: audio_in_l
+    name: Audio IN L
+    type: audio
+    connector: jack_6_35_trs
+    direction: input
+
+  - id: audio_in_r
+    name: Audio IN R
+    type: audio
+    connector: jack_6_35_trs
+    direction: input
+
+  - id: audio_out_l
+    name: Audio OUT L
+    type: audio
+    connector: jack_6_35_trs
+    direction: output
+
+  - id: audio_out_r
+    name: Audio OUT R
+    type: audio
+    connector: jack_6_35_trs
+    direction: output
+
+  - id: headphones_out
+    name: Headphones
+    type: audio
+    connector: jack_3_5_trs
+    direction: output
+
+  - id: cv_gate_1
+    name: CV/Gate 1
+    type: cv_gate
+    connector: jack_3_5
+    direction: output
+
+  - id: cv_gate_2
+    name: CV/Gate 2
+    type: cv_gate
+    connector: jack_3_5
+    direction: output
+
+  - id: cv_gate_3
+    name: CV/Gate 3
+    type: cv_gate
+    connector: jack_3_5
+    direction: output
+
+  - id: cv_gate_4
+    name: CV/Gate 4
+    type: cv_gate
+    connector: jack_3_5
+    direction: output
+
+  - id: usb_a
+    name: USB Host
+    type: usb
+    connector: usb_a
+    transport: usb
+    direction: bidirectional
+
+  - id: usb_b
+    name: USB Device
+    type: usb
+    connector: usb_b
+    transport: usb
+    direction: bidirectional
+
+  - id: sd_card
+    name: SD Card
+    type: storage
+    connector: sd
+    direction: bidirectional
+
+  - id: power
+    name: Power
+    type: power
+    connector: dc
+    direction: input
+
+capabilities:
+  technical:
+    - midi
+    - midi_din
+    - sequencer
+    - sampler
+    - cv_gate
+    - usb
+    - sd_storage
+    - q_link
+    - touchscreen
+
+  musical:
+    - sequencing
+    - sampling
+    - beatmaking
+    - live_performance
+
+controls:
+  pads:
+    count: 16
+    velocity_sensitive: true
+    pressure_sensitive: true
+    rgb_backlit: true
+    pad_banks: 8
+
+  q_link:
+    knobs: 4
+    columns: 4
+    touch_sensitive: true
+
+  encoder:
+    count: 1
+    type: rotary
+    push_function: true
+
+  function_buttons:
+    count: 31
+
+display:
+  size_inch: 7.0
+  size_mm_diagonal: 177
+  resolution:
+    width_mm: 151
+    height_mm: 94
+  type: full_color_led_backlit
+  touch: true
+
+hardware:
+  cpu:
+    type: quad_core_arm
+
+  ram_gb: 2
+
+  storage:
+    user_gb: 2
+    preinstalled_content_gb: 2
+
+specifications:
+  dimensions_mm:
+    width: 272
+    depth: 272
+    height: 53
+
+  weight_kg: 2.1
+
+power:
+  voltage_v: 19
+  current_a: 3.42
+  polarity: center_positive
+
+firmware:
+  version: unknown
+
+notes:
+  - "Digital Twin initial entry."
+  - "Current studio MIDI master."

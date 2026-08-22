@@ -1,0 +1,115 @@
+id: erica_midi_thru
+name: Erica Synths MIDI Thru Box
+type: midi_thru_box
+
+status: active
+location: studio
+
+ports:
+  - id: midi_in
+    name: MIDI IN
+    type: midi
+    connector: din5
+    transport: midi_din
+    direction: input
+
+  - id: midi_thru_1
+    name: MIDI THRU 1
+    type: midi
+    connector: din5
+    transport: midi_din
+    direction: output
+
+  - id: midi_thru_2
+    name: MIDI THRU 2
+    type: midi
+    connector: din5
+    transport: midi_din
+    direction: output
+
+  - id: midi_thru_3
+    name: MIDI THRU 3
+    type: midi
+    connector: din5
+    transport: midi_din
+    direction: output
+
+  - id: midi_thru_4
+    name: MIDI THRU 4
+    type: midi
+    connector: din5
+    transport: midi_din
+    direction: output
+
+  - id: midi_thru_5
+    name: MIDI THRU 5
+    type: midi
+    connector: din5
+    transport: midi_din
+    direction: output
+
+  - id: midi_thru_6
+    name: MIDI THRU 6
+    type: midi
+    connector: din5
+    transport: midi_din
+    direction: output
+
+  - id: midi_thru_7
+    name: MIDI THRU 7
+    type: midi
+    connector: din5
+    transport: midi_din
+    direction: output
+
+  - id: midi_thru_8
+    name: MIDI THRU 8
+    type: midi
+    connector: din5
+    transport: midi_din
+    direction: output
+
+  - id: power
+    name: Power
+    type: power
+    connector: dc
+    direction: input
+
+capabilities:
+  technical:
+    - midi
+    - midi_din
+    - midi_thru
+    - midi_splitter
+
+  routing:
+    inputs: 1
+    outputs: 8
+    topology: "1-to-8"
+    processing: none
+
+specifications:
+  latency_ns: 60
+  mass_kg: 0.5
+
+  dimensions_mm:
+    width: 220
+    depth: 50
+    height: 32
+
+power:
+  input_voltage_v: 9
+  adapter_input_voltage:
+    - 110
+    - 220
+  adapter_supplied: true
+
+firmware:
+  version: not_applicable
+
+notes:
+  - "Professional MIDI THRU splitter."
+  - "One MIDI IN to eight MIDI THRU outputs."
+  - "Designed for simultaneous control of up to eight instruments."
+  - "Plug and play."
+  - "No MIDI processing or additional functionality specified."

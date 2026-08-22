@@ -1,0 +1,23 @@
+id: mpc-to-erica
+status: active
+
+source:
+  device: mpc_one
+  port: midi_out
+
+target:
+  device: erica_midi_thru
+  port: midi_in
+
+signal:
+  type: midi
+  transport: midi_din
+
+cable:
+  type: midi_din
+  connector_source: din5
+  connector_target: din5
+  length_m: unknown
+
+notes:
+  - "MPC One is the MIDI master."

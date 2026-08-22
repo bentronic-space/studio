@@ -1,0 +1,23 @@
+id: erica-to-td3
+status: active
+
+source:
+  device: erica_midi_thru
+  port: midi_thru_1
+
+target:
+  device: td3
+  port: midi_in
+
+signal:
+  type: midi
+  transport: midi_din
+
+cable:
+  type: midi_din
+  connector_source: din5
+  connector_target: din5
+  length_m: unknown
+
+notes:
+  - "TD-3 receives MIDI from Erica Synths MIDI THRU 1."
