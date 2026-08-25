@@ -1,0 +1,12 @@
+id: midi_din_002
+name: MIDI DIN cable 002
+
+type: midi
+transport: midi_din
+color: black
+
+connectors:
+  source: din5
+  target: din5
+
+status: active

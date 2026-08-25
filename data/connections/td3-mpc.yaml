@@ -14,10 +14,7 @@ signal:
   transport: midi_din
 
 cable:
-  type: midi_din
-  connector_source: din5
-  connector_target: din5
-  length_m: unknown
+  id: midi_din_003
 
 notes:
   - "TD-3 MIDI output is connected back to MPC MIDI input."

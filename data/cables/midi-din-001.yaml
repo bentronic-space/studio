@@ -1,0 +1,19 @@
+id: midi_din_001
+name: MIDI DIN cable 001
+
+type: midi
+transport: midi_din
+
+color: black
+
+connectors:
+  source: din5_male
+  target: din5_male
+
+length_m: unknown
+
+status: active
+condition: good
+
+notes:
+  - "MIDI cable, currently used between MPC One and Erica Synths MIDI Thru Box."
