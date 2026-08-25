@@ -1,0 +1,106 @@
+id: tr6s
+name: Roland TR-6S
+type: drum_machine
+
+status: active
+location: studio
+
+ports:
+  - id: midi_in
+    name: MIDI IN
+    type: midi
+    connector: din5
+    transport: midi_din
+    direction: input
+
+  - id: midi_out
+    name: MIDI OUT
+    type: midi
+    connector: din5
+    transport: midi_din
+    direction: output
+
+  - id: usb
+    name: USB
+    type: usb
+    connector: usb_b
+    transport: usb
+    direction: bidirectional
+    functions:
+      - audio
+      - midi
+      - power
+
+  - id: audio_out_l
+    name: Audio OUT L
+    type: audio
+    connector: jack_6_35
+    direction: output
+
+  - id: audio_out_r
+    name: Audio OUT R
+    type: audio
+    connector: jack_6_35
+    direction: output
+
+  - id: headphones_out
+    name: Headphones
+    type: audio
+    connector: jack_3_5_stereo
+    direction: output
+
+  - id: sd_card
+    name: SD Card
+    type: storage
+    connector: sd
+    direction: bidirectional
+
+capabilities:
+  technical:
+    - midi
+    - midi_din
+    - usb_audio
+    - usb_midi
+    - usb_power
+    - sample_playback
+    - sd_storage
+    - fm_synthesis
+    - step_sequencer
+    - motion_recording
+
+  musical:
+    - drums
+    - percussion
+    - sequencing
+    - sampling
+    - sound_design
+
+specifications:
+  instruments: 6
+  pads: 16
+  faders: 6
+  analog_outputs: 2
+  effects: true
+  sampling: false
+  acb_modeling: true
+
+power:
+  sources:
+    - aa_batteries
+    - usb
+
+dimensions_mm:
+  width: 224
+  depth: 132
+  height: 60
+
+weight_g: 705
+
+firmware:
+  version: unknown
+
+notes:
+  - "Drum machine with ACB modeling and FM sound engine."
+  - "USB provides audio, MIDI and power."
+  - "SD card supports WAV and AIFF sample import."
+  - "Yellow audio path."

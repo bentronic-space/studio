@@ -1,0 +1,95 @@
+id: volca_sample
+name: Korg Volca Sample
+type: sampler
+
+status: active
+location: studio
+
+ports:
+  - id: midi_in
+    name: MIDI IN
+    type: midi
+    connector: din5
+    transport: midi_din
+    direction: input
+
+  - id: audio_out
+    name: Audio OUT
+    type: audio
+    connector: jack_3_5_stereo
+    direction: output
+    balanced: false
+
+  - id: sync_in
+    name: SYNC IN
+    type: sync
+    connector: jack_3_5_mono
+    direction: input
+
+  - id: sync_out
+    name: SYNC OUT
+    type: sync
+    connector: jack_3_5_mono
+    direction: output
+
+  - id: power
+    name: Power
+    type: power
+    connector: dc
+    direction: input
+
+capabilities:
+  technical:
+    - midi
+    - midi_din
+    - sampling
+    - pcm
+    - sync
+    - digital_reverb
+    - analogue_isolator
+
+  musical:
+    - sampler
+    - sequencing
+    - drums
+    - sound_design
+
+specifications:
+  maximum_polyphony: 8
+  samples: 100
+  sample_memory_mb: 4
+  maximum_sample_length_seconds: 65
+  sampling_frequency_khz: 31.25
+  bit_depth: 16
+  sequencer_parts: 10
+  sequencer_steps: 16
+  recording_patterns: 10
+  maximum_sequences: 16
+  recording_songs: 6
+  motion_sequence: true
+  active_step: true
+  step_jump: true
+  swing: true
+
+power:
+  battery_type: aa
+  battery_count: 6
+  battery_life_hours: 10
+  external_power: dc_9v
+
+dimensions_mm:
+  width: 193
+  depth: 115
+  height: 45
+
+weight_g: 372
+
+firmware:
+  version: unknown
+
+notes:
+  - "PCM sampler."
+  - "100 samples, user overwritable."
+  - "Audio output is a 3.5 mm stereo mini jack."
+  - "MIDI input only."
+  - "Sync input and output use 3.5 mm mono mini jack."

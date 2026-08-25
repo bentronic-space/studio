@@ -1,0 +1,21 @@
+id: td3-to-um300
+status: active
+
+source:
+  device: td3
+  port: audio_out
+
+target:
+  device: um300
+  port: audio_in
+
+signal:
+  type: audio
+  transport: audio_analog
+
+cable:
+  id: audio_patch_001
+
+notes:
+  - "TD-3 audio output to UM300 input."
+  - "Red audio path."

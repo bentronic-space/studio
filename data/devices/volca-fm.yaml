@@ -1,0 +1,103 @@
+id: volca_fm
+name: Korg Volca FM
+type: synthesizer
+
+status: active
+location: studio
+
+ports:
+  - id: midi_in
+    name: MIDI IN
+    type: midi
+    connector: din5
+    transport: midi_din
+    direction: input
+
+  - id: audio_out
+    name: Audio OUT
+    type: audio
+    connector: jack_3_5_stereo
+    direction: output
+    balanced: false
+
+  - id: sync_in
+    name: SYNC IN
+    type: sync
+    connector: jack_3_5_mono
+    direction: input
+
+  - id: sync_out
+    name: SYNC OUT
+    type: sync
+    connector: jack_3_5_mono
+    direction: output
+
+  - id: power
+    name: Power
+    type: power
+    connector: dc
+    direction: input
+
+capabilities:
+  technical:
+    - midi
+    - midi_din
+    - fm_synthesis
+    - sync
+    - sysex
+
+  musical:
+    - synthesizer
+    - sequencing
+    - arpeggiator
+    - sound_design
+
+specifications:
+  synthesis: fm
+  maximum_polyphony: 3
+  operators: 6
+  algorithms: 32
+  programs: 32
+  voice_modes:
+    - poly
+    - mono
+    - unison
+
+  arpeggiator:
+    types: 9
+
+  sequencer:
+    parts: 1
+    steps: 16
+    recording_patterns: 16
+    motion_sequence: true
+    active_step: true
+    warp_active_step: true
+    pattern_chain: true
+    metronome: true
+
+  effects:
+    - chorus
+
+power:
+  battery_type: aa
+  battery_count: 6
+  battery_life_hours: 10
+  external_power: dc_9v
+
+dimensions_mm:
+  width: 193
+  depth: 115
+  height: 40
+
+weight_g: 360
+
+firmware:
+  version: unknown
+
+notes:
+  - "FM synthesizer with 6 operators and 32 algorithms."
+  - "MIDI input supports loading SYX/SYS-EX files created for Yamaha DX7."
+  - "Audio output is a 3.5 mm stereo mini jack."
+  - "Sync input and output use 3.5 mm mono mini jack."
+  - "Two Volca FM units can exchange sound programs and sequence data via sync."

@@ -1,0 +1,171 @@
+id: umc1820
+name: Behringer UMC1820
+type: audio_interface
+status: active
+location: studio
+
+ports:
+  # Analog inputs
+  - id: input_1
+    type: audio
+    connector: combo_xlr_jack
+    direction: input
+
+  - id: input_2
+    type: audio
+    connector: combo_xlr_jack
+    direction: input
+
+  - id: input_3
+    type: audio
+    connector: combo_xlr_jack
+    direction: input
+
+  - id: input_4
+    type: audio
+    connector: combo_xlr_jack
+    direction: input
+
+  - id: input_5
+    type: audio
+    connector: combo_xlr_jack
+    direction: input
+
+  - id: input_6
+    type: audio
+    connector: combo_xlr_jack
+    direction: input
+
+  - id: input_7
+    type: audio
+    connector: combo_xlr_jack
+    direction: input
+
+  - id: input_8
+    type: audio
+    connector: combo_xlr_jack
+    direction: input
+
+  # Analog outputs
+  - id: output_1
+    type: audio
+    connector: jack_6_35
+    direction: output
+
+  - id: output_2
+    type: audio
+    connector: jack_6_35
+    direction: output
+
+  - id: output_3
+    type: audio
+    connector: jack_6_35
+    direction: output
+
+  - id: output_4
+    type: audio
+    connector: jack_6_35
+    direction: output
+
+  - id: output_5
+    type: audio
+    connector: jack_6_35
+    direction: output
+
+  - id: output_6
+    type: audio
+    connector: jack_6_35
+    direction: output
+
+  - id: output_7
+    type: audio
+    connector: jack_6_35
+    direction: output
+
+  - id: output_8
+    type: audio
+    connector: jack_6_35
+    direction: output
+
+  - id: monitor_out_l
+    type: audio
+    connector: jack_6_35
+    direction: output
+
+  - id: monitor_out_r
+    type: audio
+    connector: jack_6_35
+    direction: output
+
+  # Headphones
+  - id: headphones_1
+    type: audio
+    connector: jack_6_35
+    direction: output
+
+  - id: headphones_2
+    type: audio
+    connector: jack_6_35
+    direction: output
+
+  # Digital audio
+  - id: adat_optical
+    type: audio_digital
+    connector: optical
+    direction: bidirectional
+
+  - id: spdif_optical
+    type: audio_digital
+    connector: optical
+    direction: bidirectional
+
+  - id: spdif_coax
+    type: audio_digital
+    connector: coax
+    direction: bidirectional
+
+  # MIDI
+  - id: midi_in
+    type: midi
+    connector: din5
+    direction: input
+
+  - id: midi_out
+    type: midi
+    connector: din5
+    direction: output
+
+  # USB
+  - id: usb
+    type: usb
+    connector: usb_b
+    direction: bidirectional
+
+  # Power
+  - id: power
+    type: power
+    connector: dc
+    direction: input
+
+capabilities:
+  technical:
+    - audio_interface
+    - usb_audio
+    - midi_interface
+    - adat
+    - spdif
+    - phantom_power
+  audio:
+    channels_in: 18
+    channels_out: 20
+    max_sample_rate_khz: 96
+    max_resolution_bit: 24
+
+firmware:
+  version: unknown
+
+notes:
+  - "8 analog microphone / instrument / line inputs."
+  - "UM300 is connected to input_3."
+  - "USB 2.0 Type B."
+  - "18 x 20 USB audio interface."

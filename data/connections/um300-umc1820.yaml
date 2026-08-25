@@ -1,0 +1,21 @@
+id: um300-to-umc1820
+status: active
+
+source:
+  device: um300
+  port: audio_out
+
+target:
+  device: umc1820
+  port: input_3
+
+signal:
+  type: audio
+  transport: audio_analog
+
+cable:
+  id: audio_patch_002
+
+notes:
+  - "UM300 output to UMC1820 input 3."
+  - "Red audio path."

@@ -1,0 +1,12 @@
+id: audio_patch_001
+name: 6.3 mm mono patch cable 001
+
+type: audio
+transport: audio_analog
+color: red
+
+connectors:
+  source: jack_6_35_mono
+  target: jack_6_35_mono
+
+status: active

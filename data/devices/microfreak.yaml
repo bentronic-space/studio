@@ -1,0 +1,127 @@
+id: microfreak
+name: Arturia MicroFreak
+type: synthesizer
+
+status: active
+location: studio
+
+ports:
+  - id: midi_in
+    name: MIDI IN
+    type: midi
+    connector: trs_3_5
+    transport: midi_trs
+    direction: input
+
+  - id: midi_out
+    name: MIDI OUT
+    type: midi
+    connector: trs_3_5
+    transport: midi_trs
+    direction: output
+
+  - id: usb
+    name: USB
+    type: usb
+    connector: usb
+    transport: usb
+    direction: bidirectional
+    functions:
+      - midi
+
+  - id: audio_out
+    name: Audio OUT
+    type: audio
+    connector: jack_6_35
+    direction: output
+    balanced: true
+
+  - id: cv_out
+    name: CV OUT
+    type: cv
+    connector: jack_3_5
+    direction: output
+
+  - id: gate_out
+    name: GATE OUT
+    type: gate
+    connector: jack_3_5
+    direction: output
+
+  - id: pressure_out
+    name: PRESSURE OUT
+    type: pressure
+    connector: jack_3_5
+    direction: output
+
+  - id: clock_in
+    name: CLOCK IN
+    type: clock
+    connector: jack_3_5
+    direction: input
+
+  - id: clock_out
+    name: CLOCK OUT
+    type: clock
+    connector: jack_3_5
+    direction: output
+
+  - id: power
+    name: Power
+    type: power
+    connector: dc
+    direction: input
+
+capabilities:
+  technical:
+    - midi
+    - midi_trs
+    - usb_midi
+    - cv
+    - gate
+    - pressure
+    - clock
+    - audio
+
+  musical:
+    - synthesizer
+    - sequencing
+    - arpeggiator
+    - sound_design
+
+specifications:
+  keys: 25
+  velocity: true
+  polyphonic_aftertouch: true
+  voices: 1
+  synthesis: digital_analog_hybrid
+  filter: analog_state_variable
+  lfo_modes: 6
+  envelope_generators: 2
+  modulation_sources: 5
+  modulation_targets: 7
+  arpeggiator: true
+  sequencer_automation_tracks: 4
+  paraphonic: true
+  effects: 0
+
+path:
+  color: green
+
+dimensions_mm:
+  width: 311
+  depth: 233
+  height: 55
+
+weight_g: 1020
+
+firmware:
+  version: unknown
+
+notes:
+  - "Hybrid synthesizer."
+  - "Mono balanced audio output."
+  - "MIDI uses 3.5 mm TRS connections."
+  - "CV, Gate and Pressure outputs use 3.5 mm jack."
+  - "Clock input and output use 3.5 mm jack."
+  - "Green Audio Patch."

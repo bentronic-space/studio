@@ -1,0 +1,130 @@
+id: xone24
+name: Allen & Heath Xone:24
+type: dj_mixer
+
+status: active
+location: studio
+
+areas:
+  - dj
+
+tags:
+  - dj
+  - mixer
+  - analog
+  - phono
+
+ports:
+  - id: phono_1
+    name: PHONO 1
+    type: audio
+    connector: rca
+    direction: input
+
+  - id: phono_2
+    name: PHONO 2
+    type: audio
+    connector: rca
+    direction: input
+
+  - id: line_1
+    name: LINE 1
+    type: audio
+    connector: rca
+    direction: input
+
+  - id: line_2
+    name: LINE 2
+    type: audio
+    connector: rca
+    direction: input
+
+  - id: mic
+    name: MIC
+    type: audio
+    connector: combo_xlr_jack
+    direction: input
+
+  - id: aux
+    name: AUX
+    type: audio
+    connector: rca
+    direction: input
+
+  - id: master_out
+    name: MASTER OUT
+    type: audio
+    connector: xlr
+    direction: output
+
+  - id: master_insert
+    name: MASTER INSERT
+    type: audio
+    connector: xlr
+    direction: output
+
+  - id: booth_out
+    name: BOOTH OUT
+    type: audio
+    connector: rca
+    direction: output
+
+  - id: record_out
+    name: RECORD OUT
+    type: audio
+    connector: rca
+    direction: output
+
+  - id: master_send
+    name: MASTER SEND
+    type: audio
+    connector: rca
+    direction: output
+
+  - id: fx_return
+    name: FX RETURN
+    type: audio
+    connector: rca
+    direction: input
+
+capabilities:
+  technical:
+    - dj_mixer
+    - phono
+    - line
+    - fx_loop
+    - crossfader
+    - isolator_eq
+    - filter
+
+  musical:
+    - dj
+    - mixing
+
+specifications:
+  channels: 2
+  phono_inputs: 2
+  line_inputs: 2
+  microphone_inputs: 1
+  effects: false
+  fx_loop: true
+  crossfader: true
+  crossfader_curves: 3
+
+dimensions_mm:
+  width: 190
+  height: 108
+  depth: 314
+
+color: black
+
+firmware:
+  version: unknown
+
+notes:
+  - "2-channel DJ mixer."
+  - "2 phono RCA inputs for turntables."
+  - "2 line RCA inputs."
+  - "Master output via XLR."
+  - "Booth and record outputs via RCA."
+  - "FX send/return."

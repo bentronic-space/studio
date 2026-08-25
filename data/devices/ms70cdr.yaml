@@ -1,0 +1,107 @@
+id: ms70cdr
+name: Zoom MS-70CDR
+type: multi_effect
+
+status: active
+location: studio
+
+ports:
+  - id: audio_in_l
+    name: Audio IN L / Mono
+    type: audio
+    connector: jack_6_35
+    direction: input
+    balanced: false
+
+  - id: audio_in_r
+    name: Audio IN R
+    type: audio
+    connector: jack_6_35
+    direction: input
+    balanced: false
+
+  - id: audio_out_l
+    name: Audio OUT L / Mono
+    type: audio
+    connector: jack_6_35
+    direction: output
+    balanced: false
+
+  - id: audio_out_r
+    name: Audio OUT R
+    type: audio
+    connector: jack_6_35
+    direction: output
+    balanced: false
+
+  - id: usb
+    name: USB
+    type: usb
+    connector: usb
+    transport: usb
+    direction: bidirectional
+    functions:
+      - power
+      - firmware_update
+
+  - id: power
+    name: Power
+    type: power
+    connector: dc
+    direction: input
+
+capabilities:
+  technical:
+    - multi_effect
+    - stereo
+    - mono
+    - firmware_update
+    - tap_tempo
+
+  musical:
+    - effects
+    - modulation
+    - equalizer
+    - delay
+    - reverb
+
+specifications:
+  effects: 86
+  simultaneous_effects: 6
+  user_patches: 50
+  preset_patches: 40
+  sampling_frequency_khz: 44.1
+  ad_conversion:
+    bit_depth: 24
+    oversampling: 128
+  da_conversion:
+    bit_depth: 24
+    oversampling: 128
+  signal_processing:
+    floating_point_bits: 32
+    fixed_point_bits: 32
+  frequency_response: "20 Hz - 20 kHz"
+  display: lcd
+
+power:
+  battery_type: aa
+  battery_count: 2
+  battery_life_hours: 7
+  battery_life_stereo_hours: 5
+  external_power: dc_9v
+
+dimensions_mm:
+  depth: 130.3
+  width: 77.5
+  height: 58.5
+
+weight_g: 350
+
+firmware:
+  version: unknown
+
+notes:
+  - "86 guitar and bass effects."
+  - "Up to six effects can be used simultaneously."
+  - "Mono or stereo operation."
+  - "USB is used for power and firmware updates."

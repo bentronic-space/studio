@@ -1,0 +1,106 @@
+id: b1
+name: Donner B1
+type: synthesizer
+
+status: active
+location: studio
+
+ports:
+  - id: midi_in
+    name: MIDI IN
+    type: midi
+    connector: din5
+    transport: midi_din
+    direction: input
+
+  - id: midi_out
+    name: MIDI OUT
+    type: midi
+    connector: din5
+    transport: midi_din
+    direction: output
+
+  - id: usb
+    name: USB
+    type: usb
+    connector: usb_c
+    transport: usb
+    direction: bidirectional
+    functions:
+      - midi
+
+  - id: audio_out
+    name: Audio OUT
+    type: audio
+    connector: jack_6_35
+    direction: output
+    balanced: false
+
+  - id: aux_in
+    name: AUX IN
+    type: audio
+    connector: jack_3_5
+    direction: input
+    balanced: false
+
+  - id: sync_in
+    name: SYNC IN
+    type: sync
+    connector: jack_3_5
+    direction: input
+
+  - id: headphones
+    name: Headphones
+    type: audio
+    connector: jack_3_5
+    direction: output
+
+  - id: power
+    name: Power
+    type: power
+    connector: dc
+    direction: input
+
+capabilities:
+  technical:
+    - midi
+    - midi_din
+    - usb_midi
+    - sync
+    - audio
+
+  musical:
+    - synthesizer
+    - bass
+    - sequencing
+    - sound_design
+
+specifications:
+  voices: 1
+  synthesis: analog
+  oscillators: 1
+  filter: analog_lowpass
+  envelopes: 1
+  effects:
+    - saturation
+    - drive
+    - tone
+    - delay
+
+path:
+  color: blue
+
+dimensions_mm:
+  width: 323
+  depth: 130
+  height: 54
+
+weight_g: 620
+
+power:
+  voltage: 9
+  current_ma: 500
+  polarity: center_positive
+
+firmware:
+  version: unknown

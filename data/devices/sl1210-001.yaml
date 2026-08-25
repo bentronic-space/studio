@@ -1,0 +1,49 @@
+id: sl1210_001
+name: Technics SL-1210 #1
+type: turntable
+
+status: active
+location: studio
+
+areas:
+  - dj
+
+tags:
+  - dj
+  - turntable
+  - vinyl
+
+ports:
+  - id: audio_out
+    name: Audio OUT
+    type: audio
+    connector: rca
+    direction: output
+    balanced: false
+
+  - id: ground
+    name: Ground
+    type: ground
+    connector: screw
+    direction: output
+
+capabilities:
+  technical:
+    - turntable
+    - direct_drive
+    - quartz_lock
+
+  musical:
+    - vinyl
+    - dj
+
+specifications:
+  type: manual_turntable
+  drive: direct_drive
+  motor: brushless_dc
+  speeds_rpm:
+    - 33.33
+    - 45
+
+firmware:
+  version: unknown
