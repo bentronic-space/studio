@@ -1,8 +1,8 @@
 # Korg Volca Sample
 
-**ID:** `volca_sample`  
-**Typ:** sampler  
-**Status:** active  
+**ID:** `volca_sample`
+**Typ:** sampler
+**Status:** active
 **Ort:** studio
 
 ## Technische Fähigkeiten

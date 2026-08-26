@@ -1,8 +1,8 @@
 # Spinspot
 
-**ID:** `spinspot-001`  
-**Typ:** lighting  
-**Status:** active  
+**ID:** `spinspot-001`
+**Typ:** lighting
+**Status:** active
 **Ort:** studio
 
 ## Technische Fähigkeiten
@@ -31,7 +31,7 @@ Keine
 
 ### Eingänge
 
-- [[Geräte/uking-zq01069-001|U'King ZQ01069 PAR 1]] / DMX OUT → **DMX IN** — `dmx512` — Kabel `dmx-xlr-2m-001`
+- [[Geräte/uking-zq01069-001|U'King ZQ01069 PAR 1]] / DMX OUT → **DMX IN** — `dmx512` — [[Kabel/dmx-xlr-2m-001|DMX XLR Cable 2m]]
 
 ## Notizen
 

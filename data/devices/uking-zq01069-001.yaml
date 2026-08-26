@@ -66,3 +66,10 @@ notes:
   - "DMX operation tested successfully."
   - "8-channel mode tested with start address A001."
   - "4-channel mode documented in manual."
+
+
+
+current_dmx:
+  mode: 4ch
+  start_address: 1
+  address_range: 1-4

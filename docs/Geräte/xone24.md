@@ -1,8 +1,8 @@
 # Allen & Heath Xone:24
 
-**ID:** `xone24`  
-**Typ:** dj_mixer  
-**Status:** active  
+**ID:** `xone24`
+**Typ:** dj_mixer
+**Status:** active
 **Ort:** studio
 
 ## Technische Fähigkeiten

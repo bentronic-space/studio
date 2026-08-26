@@ -1,0 +1,20 @@
+id: dmx-usb-interface-5m-001
+name: Integrated DMX Cable 5m
+
+type: dmx
+transport: dmx512
+
+connector_b: xlr_3_female
+
+length_m: 5
+
+integrated_into:
+  device: rixutech-usb-dmx-001
+  port: dmx_out
+
+status: active
+location: studio
+
+notes:
+  - "Integrated 5 m DMX cable permanently attached to the USB-DMX interface."
+  - "XLR connector is female."

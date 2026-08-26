@@ -1,8 +1,8 @@
 # Fujitsu LIFEBOOK E556
 
-**ID:** `fujitsu-e556`  
-**Typ:** computer  
-**Status:** active  
+**ID:** `fujitsu-e556`
+**Typ:** computer
+**Status:** active
 **Ort:** studio
 
 ## Technische Fähigkeiten

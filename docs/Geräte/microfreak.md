@@ -1,8 +1,8 @@
 # Arturia MicroFreak
 
-**ID:** `microfreak`  
-**Typ:** synthesizer  
-**Status:** active  
+**ID:** `microfreak`
+**Typ:** synthesizer
+**Status:** active
 **Ort:** studio
 
 ## Technische Fähigkeiten

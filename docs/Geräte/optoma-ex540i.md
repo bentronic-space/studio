@@ -1,8 +1,8 @@
 # Optoma EX540i
 
-**ID:** `optoma-ex540i`  
-**Typ:** projector  
-**Status:** active  
+**ID:** `optoma-ex540i`
+**Typ:** projector
+**Status:** active
 **Ort:** studio
 
 ## Technische Fähigkeiten

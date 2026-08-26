@@ -1,8 +1,8 @@
 # Zoom MS-70CDR
 
-**ID:** `ms70cdr`  
-**Typ:** multi_effect  
-**Status:** active  
+**ID:** `ms70cdr`
+**Typ:** multi_effect
+**Status:** active
 **Ort:** studio
 
 ## Technische Fähigkeiten

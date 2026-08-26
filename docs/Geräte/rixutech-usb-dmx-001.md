@@ -1,8 +1,8 @@
 # RIXUTECH USB-DMX Interface
 
-**ID:** `rixutech-usb-dmx-001`  
-**Typ:** dmx_interface  
-**Status:** active  
+**ID:** `rixutech-usb-dmx-001`
+**Typ:** dmx_interface
+**Status:** active
 **Ort:** studio
 
 ## Technische Fähigkeiten
@@ -29,7 +29,7 @@ Keine
 
 ### Ausgänge
 
-- **DMX OUT** → [[Geräte/uking-zq01069-002|U'King ZQ01069 PAR 2]] / DMX IN — `dmx512`
+- **DMX OUT** → [[Geräte/uking-zq01069-002|U'King ZQ01069 PAR 2]] / DMX IN — `dmx512` — [[Kabel/dmx-usb-interface-5m-001|Integrated DMX Cable 5m]]
 
 ### Eingänge
 

@@ -1,8 +1,8 @@
 # Roland TR-6S
 
-**ID:** `tr6s`  
-**Typ:** drum_machine  
-**Status:** active  
+**ID:** `tr6s`
+**Typ:** drum_machine
+**Status:** active
 **Ort:** studio
 
 ## Technische Fähigkeiten

@@ -135,3 +135,8 @@ notes:
   - "Digital Twin initial entry"
   - "DMX 6-channel mode documented in supplied manual."
   - "Standalone RGBW, automatic and sound-active functions documented."
+
+current_dmx:
+  mode: 4ch
+  start_address: 13
+  address_range: 13-16

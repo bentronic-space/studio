@@ -1,8 +1,8 @@
 # Korg Volca FM
 
-**ID:** `volca_fm`  
-**Typ:** synthesizer  
-**Status:** active  
+**ID:** `volca_fm`
+**Typ:** synthesizer
+**Status:** active
 **Ort:** studio
 
 ## Technische Fähigkeiten

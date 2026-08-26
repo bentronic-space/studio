@@ -1,8 +1,8 @@
 # Akai MPC One
 
-**ID:** `mpc_one`  
-**Typ:** standalone_sequencer  
-**Status:** active  
+**ID:** `mpc_one`
+**Typ:** standalone_sequencer
+**Status:** active
 **Ort:** studio
 
 ## Technische Fähigkeiten
@@ -46,11 +46,11 @@
 
 ### Ausgänge
 
-- **MIDI OUT** → [[Geräte/erica_midi_thru|Erica Synths MIDI Thru Box]] / MIDI IN — `midi_din` — Kabel `midi_din_001`
+- **MIDI OUT** → [[Geräte/erica_midi_thru|Erica Synths MIDI Thru Box]] / MIDI IN — `midi_din` — [[Kabel/midi_din_001|MIDI DIN cable 001]]
 
 ### Eingänge
 
-- [[Geräte/td3|Behringer TD-3]] / MIDI OUT → **MIDI IN** — `midi_din` — Kabel `midi_din_003`
+- [[Geräte/td3|Behringer TD-3]] / MIDI OUT → **MIDI IN** — `midi_din` — [[Kabel/midi_din_003|MIDI DIN cable 003]]
 
 ## Notizen
 

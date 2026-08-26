@@ -1,8 +1,8 @@
 # DMX 120 Ohm Terminator
 
-**ID:** `dmx-terminator-120ohm-001`  
-**Typ:** dmx_terminator  
-**Status:** active  
+**ID:** `dmx-terminator-120ohm-001`
+**Typ:** dmx_terminator
+**Status:** active
 **Ort:** studio
 
 ## Technische Fähigkeiten

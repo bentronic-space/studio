@@ -1,8 +1,8 @@
 # Erica Synths MIDI Thru Box
 
-**ID:** `erica_midi_thru`  
-**Typ:** midi_thru_box  
-**Status:** active  
+**ID:** `erica_midi_thru`
+**Typ:** midi_thru_box
+**Status:** active
 **Ort:** studio
 
 ## Technische Fähigkeiten
@@ -33,11 +33,11 @@ Keine
 
 ### Ausgänge
 
-- **MIDI THRU 1** → [[Geräte/td3|Behringer TD-3]] / MIDI IN — `midi_din` — Kabel `midi_din_002`
+- **MIDI THRU 1** → [[Geräte/td3|Behringer TD-3]] / MIDI IN — `midi_din` — [[Kabel/midi_din_002|MIDI DIN cable 002]]
 
 ### Eingänge
 
-- [[Geräte/mpc_one|Akai MPC One]] / MIDI OUT → **MIDI IN** — `midi_din` — Kabel `midi_din_001`
+- [[Geräte/mpc_one|Akai MPC One]] / MIDI OUT → **MIDI IN** — `midi_din` — [[Kabel/midi_din_001|MIDI DIN cable 001]]
 
 ## Notizen
 

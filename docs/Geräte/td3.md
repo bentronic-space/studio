@@ -1,8 +1,8 @@
 # Behringer TD-3
 
-**ID:** `td3`  
-**Typ:** synthesizer  
-**Status:** active  
+**ID:** `td3`
+**Typ:** synthesizer
+**Status:** active
 **Ort:** studio
 
 ## Technische Fähigkeiten
@@ -41,12 +41,12 @@
 
 ### Ausgänge
 
-- **MIDI OUT** → [[Geräte/mpc_one|Akai MPC One]] / MIDI IN — `midi_din` — Kabel `midi_din_003`
-- **Audio OUT** → [[Geräte/um300|Behringer UM300]] / Audio IN — `audio_analog` — Kabel `audio_patch_001`
+- **MIDI OUT** → [[Geräte/mpc_one|Akai MPC One]] / MIDI IN — `midi_din` — [[Kabel/midi_din_003|MIDI DIN cable 003]]
+- **Audio OUT** → [[Geräte/um300|Behringer UM300]] / Audio IN — `audio_analog` — [[Kabel/audio_patch_001|6.3 mm mono patch cable 001]]
 
 ### Eingänge
 
-- [[Geräte/erica_midi_thru|Erica Synths MIDI Thru Box]] / MIDI THRU 1 → **MIDI IN** — `midi_din` — Kabel `midi_din_002`
+- [[Geräte/erica_midi_thru|Erica Synths MIDI Thru Box]] / MIDI THRU 1 → **MIDI IN** — `midi_din` — [[Kabel/midi_din_002|MIDI DIN cable 002]]
 
 ## Notizen
 

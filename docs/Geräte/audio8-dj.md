@@ -1,8 +1,8 @@
 # Native Instruments Audio 8 DJ
 
-**ID:** `audio8-dj`  
-**Typ:** audio_interface  
-**Status:** active  
+**ID:** `audio8-dj`
+**Typ:** audio_interface
+**Status:** active
 **Ort:** studio
 
 ## Technische Fähigkeiten
