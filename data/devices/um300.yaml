@@ -6,11 +6,13 @@ location: studio
 
 ports:
   - id: audio_in
+    name: Audio IN
     type: audio
     connector: jack_6_35
     direction: input
 
   - id: audio_out
+    name: Audio OUT
     type: audio
     connector: jack_6_35
     direction: output
