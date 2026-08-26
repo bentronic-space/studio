@@ -7,7 +7,7 @@ DATA = ROOT / "data"
 
 devices = {}
 errors = []
-
+cables = {}
 
 def load_yaml(path):
     with open(path, "r", encoding="utf-8") as f:
@@ -33,6 +33,24 @@ for path in sorted((DATA / "devices").glob("*.yaml")):
 
     devices[device_id] = data
 
+# --------------------------------------------------
+# Load cables
+# --------------------------------------------------
+
+for path in sorted((DATA / "cables").glob("*.yaml")):
+    data = load_yaml(path)
+
+    cable_id = data.get("id")
+
+    if not cable_id:
+        errors.append(f"{path}: missing cable id")
+        continue
+
+    if cable_id in cables:
+        errors.append(f"{path}: duplicate cable id '{cable_id}'")
+        continue
+
+    cables[cable_id] = data
 
 # --------------------------------------------------
 # Validate connections
@@ -52,6 +70,15 @@ for path in sorted((DATA / "connections").glob("*.yaml")):
 
     target_device_id = target.get("device")
     target_port_id = target.get("port")
+
+    # Cable
+    cable = connection.get("cable", {})
+    cable_id = cable.get("id") if isinstance(cable, dict) else cable
+
+    if cable_id and cable_id not in cables:
+        errors.append(
+            f"{path}: cable '{cable_id}' does not exist"
+        )
 
     # Source device
     if source_device_id not in devices:

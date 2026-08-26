@@ -13,10 +13,8 @@ signal:
   type: dmx
   transport: dmx512
 
-cable:
-  id: video-dmx-5m-001
-
 notes:
   - "DMX output from USB-DMX interface is connected to U'King PAR RIGHT DMX input."
+  - "The USB-DMX interface has an integrated 5 m DMX cable."
   - "Current DMX universe: 1"
   - "PAR RIGHT operates in 4-channel mode at DMX address 9."
