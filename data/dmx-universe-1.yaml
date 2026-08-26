@@ -1,0 +1,44 @@
+id: dmx-universe-1
+name: Studio DMX Universe 1
+type: dmx_universe
+
+status: active
+
+interface:
+  device: rixutech-usb-dmx-001
+
+configuration:
+  protocol: dmx512
+  channels: 512
+
+fixtures:
+  - device: uking-zq01069-001
+    name: U'King PAR LEFT
+    mode: 4ch
+    start_address: 1
+    channels: 4
+    address_range: 1-4
+
+  - device: uking-zq01069-002
+    name: U'King PAR RIGHT
+    mode: 4ch
+    start_address: 9
+    channels: 4
+    address_range: 9-12
+
+  - device: spinspot-001
+    name: Spinspot
+    mode: 4ch
+    start_address: 13
+    channels: 4
+    address_range: 13-16
+
+free_ranges:
+  - 5-8
+  - 17-512
+
+notes:
+  - "Current working DMX configuration."
+  - "All three fixtures currently operate in 4-channel mode."
+  - "DMX addresses verified against the current QLC+ configuration."
+  - "Future changes to fixture modes and addresses are intentionally not applied yet."

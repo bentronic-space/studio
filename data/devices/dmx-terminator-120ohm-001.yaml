@@ -1,0 +1,26 @@
+id: dmx-terminator-120ohm-001
+name: DMX 120 Ohm Terminator
+type: dmx_terminator
+
+status: active
+location: studio
+
+ports:
+  - id: dmx
+    name: DMX
+    type: dmx
+    connector: xlr_3_male
+    direction: input
+
+specifications:
+  resistance_ohm: 120
+
+capabilities:
+  technical:
+    - dmx_termination
+
+  musical: []
+
+notes:
+  - "Digital Twin initial entry"
+  - "Installed at the end of the current DMX daisy chain."

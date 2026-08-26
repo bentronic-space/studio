@@ -1,0 +1,15 @@
+id: video-dp-hdmi-001
+name: DisplayPort to HDMI Cable 5m
+type: video
+
+connector_a: displayport
+connector_b: hdmi
+
+direction: displayport_to_hdmi
+length_m: 5
+
+status: active
+location: studio
+
+notes:
+  - "Currently used between Fujitsu LIFEBOOK E556 and Optoma EX540i."

@@ -1,0 +1,14 @@
+id: dmx-xlr-2m-001
+name: DMX XLR Cable 2m
+type: dmx
+
+connector_a: xlr_3_male
+connector_b: xlr_3_female
+
+length_m: 2
+
+status: active
+location: studio
+
+notes:
+  - "Currently connects U'King PAR LEFT DMX OUT to Spinspot DMX IN."

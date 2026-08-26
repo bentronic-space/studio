@@ -1,0 +1,14 @@
+id: dmx-xlr-3m-001
+name: DMX XLR Cable 3m
+type: dmx
+
+connector_a: xlr_3_male
+connector_b: xlr_3_female
+
+length_m: 3
+
+status: active
+location: studio
+
+notes:
+  - "Currently connects U'King PAR RIGHT DMX OUT to U'King PAR LEFT DMX IN."

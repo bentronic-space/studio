@@ -1,0 +1,22 @@
+id: dmx-usbdmx-to-par-right
+status: active
+
+source:
+  device: rixutech-usb-dmx-001
+  port: dmx_out
+
+target:
+  device: uking-zq01069-002
+  port: dmx_in
+
+signal:
+  type: dmx
+  transport: dmx512
+
+cable:
+  id: video-dmx-5m-001
+
+notes:
+  - "DMX output from USB-DMX interface is connected to U'King PAR RIGHT DMX input."
+  - "Current DMX universe: 1"
+  - "PAR RIGHT operates in 4-channel mode at DMX address 9."

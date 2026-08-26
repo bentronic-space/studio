@@ -1,0 +1,18 @@
+id: dmx-spinspot-to-terminator
+status: active
+
+source:
+  device: spinspot-001
+  port: dmx_out
+
+target:
+  device: dmx-terminator-120ohm-001
+  port: dmx
+
+signal:
+  type: dmx
+  transport: dmx512
+
+notes:
+  - "120 ohm DMX terminator is connected directly to the Spinspot DMX OUT."
+  - "No additional cable is used between Spinspot and terminator."

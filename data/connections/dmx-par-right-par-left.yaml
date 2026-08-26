@@ -1,0 +1,22 @@
+id: dmx-par-right-to-par-left
+status: active
+
+source:
+  device: uking-zq01069-002
+  port: dmx_out
+
+target:
+  device: uking-zq01069-001
+  port: dmx_in
+
+signal:
+  type: dmx
+  transport: dmx512
+
+cable:
+  id: dmx-xlr-3m-001
+
+notes:
+  - "DMX is daisy-chained from U'King PAR RIGHT to U'King PAR LEFT."
+  - "PAR RIGHT uses DMX addresses 9-12 in 4-channel mode."
+  - "PAR LEFT uses DMX addresses 1-4 in 4-channel mode."
