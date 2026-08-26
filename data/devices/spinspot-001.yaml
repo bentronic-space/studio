@@ -1,0 +1,122 @@
+id: spinspot-001
+name: Spinspot
+type: lighting
+
+status: active
+location: studio
+
+capabilities:
+  technical:
+    - led
+    - rgbw
+    - dmx
+    - dmx_6ch
+    - standalone
+    - sound_active
+
+  musical: []
+
+dmx:
+  mode: 6ch
+  address_range: 1-512
+
+  channels:
+    1:
+      name: master_strobe_effect
+      ranges:
+        - values: "0-8"
+          function: no_effect
+        - values: "9-134"
+          function: "RGBW master dimmer"
+        - values: "135-239"
+          function: "strobe, slow to fast"
+        - values: "240-255"
+          function: "CH2-CH5 effect"
+
+    2:
+      name: red
+      values: "0-255"
+      function: "red intensity"
+
+    3:
+      name: green
+      values: "0-255"
+      function: "green intensity"
+
+    4:
+      name: blue
+      values: "0-255"
+      function: "blue intensity"
+
+    5:
+      name: white
+      values: "0-255"
+      function: "white intensity"
+
+    6:
+      name: effect_program
+      ranges:
+        - values: "0-2"
+          function: "CH1-CH5 effect"
+        - values: "3-31"
+          function: "RGBW jump change"
+        - values: "32-63"
+          function: "red static, other colors jump change"
+        - values: "64-79"
+          function: "green static, other colors jump change"
+        - values: "80-95"
+          function: "blue static, other colors jump change"
+        - values: "96-111"
+          function: "white static, other colors jump change"
+        - values: "112-143"
+          function: "RGBW gradual change, slow"
+        - values: "144-159"
+          function: "red/green gradual change, blue/white off"
+        - values: "160-175"
+          function: "red/blue gradual change, green/white off"
+        - values: "176-191"
+          function: "green/blue gradual change, red/white off"
+        - values: "192-207"
+          function: "RGBW gradual change"
+        - values: "208-223"
+          function: "RGBW jump change"
+        - values: "224-239"
+          function: "Sound 1"
+        - values: "240-249"
+          function: "Sound 2"
+        - values: "250-255"
+          function: "Sound 3"
+
+standalone:
+  menu:
+    dmx_address: "A001-A512"
+    run:
+      - "0"
+      - "1"
+      - "2"
+      - "3"
+      - "4"
+      - "5"
+      - "6"
+      - "7"
+      - "8"
+      - "9"
+      - "A"
+      - "b"
+      - "C"
+      - "Sou_1"
+      - "Sou_2"
+      - "Sou_3"
+    custom_color:
+      red: "r000-r255"
+      green: "g000-g255"
+      blue: "b000-b255"
+      white: "y000-y255"
+
+firmware:
+  version: unknown
+
+notes:
+  - "Digital Twin initial entry"
+  - "DMX 6-channel mode documented in supplied manual."
+  - "Standalone RGBW, automatic and sound-active functions documented."

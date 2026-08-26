@@ -1,0 +1,68 @@
+id: uking-zq01069-001
+name: U'King ZQ01069 PAR 1
+type: lighting
+
+status: active
+location: studio
+
+mounting:
+  structure: decotruss
+  position: left_end
+  orientation: down_and_in
+  angle_deg: "20-30"
+
+ports:
+  - id: dmx_in
+    name: DMX IN
+    type: dmx
+    connector: xlr
+    direction: input
+
+  - id: dmx_out
+    name: DMX OUT
+    type: dmx
+    connector: xlr
+    direction: output
+
+  - id: power
+    name: Power
+    type: power
+    direction: input
+
+capabilities:
+  technical:
+    - led
+    - rgbw
+    - dmx
+    - dmx_4ch
+    - dmx_8ch
+
+  musical: []
+
+specifications:
+  manufacturer: "U'King"
+  model: ZQ01069
+  advertised_power_w: 200
+  led_type: "4-in-1 RGBW"
+
+dmx:
+  mode: 8ch
+  start_address: 1
+  channels:
+    1: dimmer
+    2: red
+    3: green
+    4: blue
+    5: white
+    6: strobe
+    7: function
+    8: function_speed
+
+firmware:
+  version: unknown
+
+notes:
+  - "Digital Twin initial entry"
+  - "DMX operation tested successfully."
+  - "8-channel mode tested with start address A001."
+  - "4-channel mode documented in manual."

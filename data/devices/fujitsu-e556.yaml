@@ -1,0 +1,96 @@
+id: fujitsu-e556
+name: Fujitsu LIFEBOOK E556
+type: computer
+
+status: active
+location: studio
+
+ports:
+  - id: displayport
+    name: DisplayPort
+    type: video
+    connector: displayport
+    direction: output
+
+  - id: usb_3
+    name: USB 3.x
+    type: usb
+    connector: usb_a
+    direction: bidirectional
+
+  - id: usb_2
+    name: USB 2.0
+    type: usb
+    connector: usb_a
+    direction: bidirectional
+
+  - id: ethernet
+    name: Ethernet
+    type: network
+    connector: rj45
+    direction: bidirectional
+
+  - id: wifi
+    name: WLAN
+    type: network
+    connector: wifi
+    direction: bidirectional
+
+  - id: audio_out
+    name: Audio OUT
+    type: audio
+    connector: jack_3_5
+    direction: output
+
+  - id: hdmi_unknown
+    name: HDMI
+    type: video
+    connector: hdmi
+    direction: output
+    status: unknown
+
+capabilities:
+  technical:
+    - computer
+    - video_output
+    - displayport
+    - usb
+    - ethernet
+    - wifi
+    - audio
+    - midi
+    - obs
+    - vscode
+    - github
+    - copilot
+
+  musical:
+    - daw
+    - midi
+    - audio_processing
+    - live_performance
+
+specifications:
+  operating_system: "Windows 10 Pro"
+  os_version: "10.0.19045 Build 19045"
+  manufacturer: FUJITSU
+  model: "LIFEBOOK E556"
+  system_type: x64
+  cpu: "Intel Core i3-6100U"
+  cpu_cores: 2
+  cpu_threads: 4
+  cpu_frequency_ghz: 2.30
+  ram_gb: 8
+  bios_version: "1.20"
+  bios_date: "2016-07-15"
+  bios_mode: legacy
+
+firmware:
+  bios_version: "1.20"
+  bios_date: "2016-07-15"
+
+notes:
+  - "Studio laptop"
+  - "Currently connected to Optoma EX540i projector via 5m HDMI-to-DisplayPort cable."
+  - "Used for VS Code, GitHub/Copilot and studio applications."
+  - "HDMI port status requires physical verification."
