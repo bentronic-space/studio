@@ -5,6 +5,21 @@ type: lighting
 status: active
 location: studio
 
+ports:
+  - id: dmx_in
+    name: DMX IN
+    type: dmx
+    connector: xlr_3
+    transport: dmx512
+    direction: input
+
+  - id: dmx_out
+    name: DMX OUT
+    type: dmx
+    connector: xlr_3
+    transport: dmx512
+    direction: output
+
 capabilities:
   technical:
     - led
