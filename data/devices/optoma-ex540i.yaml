@@ -1,0 +1,118 @@
+id: optoma-ex540i
+name: Optoma EX540i
+type: projector
+
+status: active
+location: studio
+
+ports:
+  - id: hdmi_in
+    name: HDMI
+    type: video
+    connector: hdmi
+    direction: input
+
+  - id: vga_in_1
+    name: VGA IN 1
+    type: video
+    connector: dsub15
+    direction: input
+
+  - id: vga_in_2
+    name: VGA IN 2
+    type: video
+    connector: dsub15
+    direction: input
+
+  - id: vga_out
+    name: VGA OUT
+    type: video
+    connector: dsub15
+    direction: output
+
+  - id: s_video_in
+    name: S-Video IN
+    type: video
+    connector: s_video
+    direction: input
+
+  - id: composite_in
+    name: Video IN
+    type: video
+    connector: rca
+    direction: input
+
+  - id: rs232
+    name: RS232C
+    type: control
+    connector: rs232
+    direction: bidirectional
+
+  - id: network
+    name: Network
+    type: network
+    connector: rj45
+    direction: bidirectional
+
+  - id: audio_in
+    name: Audio IN
+    type: audio
+    connector: jack_3_5_trs
+    direction: input
+
+  - id: audio_out
+    name: Audio OUT
+    type: audio
+    connector: jack_3_5_trs
+    direction: output
+
+  - id: power
+    name: Power
+    type: power
+    connector: iec
+    direction: input
+
+capabilities:
+  technical:
+    - video
+    - projection
+    - hdmi
+    - network_control
+    - rs232_control
+    - audio
+    - 3d
+
+  musical: []
+
+specifications:
+  display_type: dlp
+  chip: "0.55 inch DC3 DLP"
+  resolution: "1024x768"
+  aspect_ratio: "4:3"
+  brightness_ansi_lumens: 2800
+  contrast: "2500:1"
+  max_input_resolution: "1080p"
+  throw_ratio: "1.6-1.92:1"
+  zoom: "1.2x manual"
+  focus: manual
+  keystone_vertical: "+/-40 degrees"
+  audio_power_w: "2x5"
+  power_consumption_w: 232
+  operating_noise_db: 29
+  operating_noise_eco_db: 27
+  weight_kg: 2.9
+  dimensions_mm: "324 x 97 x 234"
+  ceiling_mounting: true
+
+lamp:
+  type: "180W P-VIP"
+  life_hours_normal: 3000
+  life_hours_eco: 6000
+
+firmware:
+  version: unknown
+
+notes:
+  - "Digital Twin initial entry"
+  - "Projector mounted in the studio on the truss."
+  - "Released in 2011 and officially discontinued by Optoma."
